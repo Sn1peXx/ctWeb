@@ -118,7 +118,7 @@ span {
   width: 20%;
   text-align: center;
   height: 100%;
-  padding-bottom: 133%; }
+  padding-bottom: 400%; }
   .navigation__fixed {
     position: fixed;
     max-width: 20%; }
@@ -172,7 +172,7 @@ section {
   height: 100%;
   text-align: center;
   padding: 15px 20px;
-  padding-bottom: 133%; }
+  padding-bottom: 400%; }
   .aside__uppper-text {
     margin-top: 25px;
     font-weight: 700;
@@ -229,14 +229,15 @@ section {
   margin-bottom: 40px;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
-  font-size: 50px; }
+  font-size: 50px;
+  text-decoration: underline; }
 
 .title__text {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   padding-left: 460px;
   padding-right: 380px;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.3em; }
 
 .title__img {

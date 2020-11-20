@@ -7,8 +7,8 @@ $yellow: #ffea00;
 $morokov: #EE693F;
 $tiger: #FC6A03;
 $blue: #337BAE;
-// #EC96A4
 $rose_g: #FFBEBD;
+
 * {
     margin: 0;
     padding: 0;
@@ -161,7 +161,7 @@ span {
     width: 20%;
     text-align: center;
     height: 100%;
-    padding-bottom: 133%;
+    padding-bottom: 400%;
 
     &__fixed {
         position: fixed;
@@ -231,7 +231,7 @@ section {
     height: 100%;
     text-align: center;
     padding: 15px 20px;
-    padding-bottom: 133%;
+    padding-bottom: 400%;
 
     &__uppper-text {
         margin-top: 25px;
@@ -318,6 +318,7 @@ section {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
     font-size: 50px;
+    text-decoration: underline;
 }
 
 .title__text {
@@ -325,7 +326,7 @@ section {
     font-family: 'Montserrat', sans-serif;
     padding-left: 460px;
     padding-right: 380px;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.3em;
 }
 
