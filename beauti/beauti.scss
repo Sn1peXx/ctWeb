@@ -37,6 +37,15 @@ html {
     scroll-behavior: smooth;  
 }
 
+body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+}
+
 span {
     color:rgb(255, 42, 42);
     font-weight: 500;
@@ -72,6 +81,8 @@ span {
     padding: 0 15px;
     margin: 0 auto;
 }
+
+
 
 .header{
     width: 100%;
@@ -158,14 +169,15 @@ span {
 .navigation {
     float: left;
     background-color: $rose_g;
-    width: 20%;
+    width: 17%;
     text-align: center;
     height: 100%;
-    padding-bottom: 400%;
+    //padding-bottom: 491%;
 
     &__fixed {
         position: fixed;
         max-width: 20%;
+        top: 70px;
     }
 
     &__uppper-text {
@@ -176,6 +188,7 @@ span {
         
     }
 }
+
 
 section ul {
     padding: 0;
@@ -226,17 +239,22 @@ section {
 
 .aside {
     float: right;
-    width: 15%;
-    background-color: $rose_g;
+    width: 17%;
     height: 100%;
+    background-color: $rose_g;
     text-align: center;
-    padding: 15px 20px;
-    padding-bottom: 400%;
+
+
+    &__text {
+        position: fixed;
+        top:70px;
+    }
 
     &__uppper-text {
         margin-top: 25px;
         font-weight: 700;
         color: $green;
+        text-align: center;
         margin-bottom: 40px;
     }
 
@@ -286,11 +304,16 @@ section {
         }   
 }
 
+.wrapper {
+    height: 100%;
+    position: absolute;
+    overflow: auto;
+}
+
 .main {
-    width:100%;
+    width: 100%;
     margin: 0 auto;
     height: 100%;
-    
 
     &__upper-text {
         font-family: 'Oswald', sans-serif;
@@ -322,12 +345,19 @@ section {
 }
 
 .title__text {
-    text-align: center;
+    text-align: left;
     font-family: 'Montserrat', sans-serif;
-    padding-left: 460px;
-    padding-right: 380px;
+    width: 50%;
+    margin-left: 25%;
     font-size: 18px;
     line-height: 1.3em;
+    
+}
+
+.main__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .title__img {
@@ -335,8 +365,18 @@ section {
     width: 850px;
     max-height: auto;
     margin-bottom: 70px;
+    text-align: center;
 }
 
 .left_side {
     text-align: left;
 }
+
+// .footer {
+//     background-color: $blue;
+//     width: 100%;
+//     height: 100px;
+//     position: relative; /* Фиксированное положение */
+//     left: 0; bottom: 0; 
+//     overflow: hidden;
+// }
