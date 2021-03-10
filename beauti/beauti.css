@@ -77,7 +77,8 @@ span {
     line-height: 1;
     color: #FCFCFA;
     font-size: 20px;
-    font-weight: 500; }
+    font-weight: 500;
+    text-decoration: none; }
     .nav__link:after {
       background-color: #EE693F;
       display: block;
